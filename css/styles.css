@@ -260,5 +260,32 @@ header nav ul li a:hover {
     'img img des des des des';
     grid-gap: 10px;
     grid-template-rows: 20px 40px auto;
+}
 
+.instructor-card-middle {
+    width: 400px;
+    margin: 0px auto;
+    padding 0 50px;
+    border: solid;
+    border-color: #3b5998;
+    border-width: 1px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+.instructor-card-middle {
+    display: grid;
+    grid-template-areas:
+    'head head head head'
+    'pro pro pro pro'
+    'img img img img'
+    'des des des des';
+    grid-gap: 10px;
+    grid-template-rows: 20px 60px auto;
+}
+
+.middle-card-align {
+    display: grid;
+    grid-template-columns: auto auto;
 }
